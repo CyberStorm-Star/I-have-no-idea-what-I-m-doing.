@@ -1,0 +1,53 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(./alena-aenami-lost-1k.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.ürün_fotos {
+
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    max-width: 287px;
+    height: auto;
+}
+
+.ilk_ürün .ikinci_ürün .üçüncü_ürün {
+    box-shadow: 5px 5px 10px #888888;
+}
+
+footer {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100px;
+}
+
+.last-text {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 12px;
+}
